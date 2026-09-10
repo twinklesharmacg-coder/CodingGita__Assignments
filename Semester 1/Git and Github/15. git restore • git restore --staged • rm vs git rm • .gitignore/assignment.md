@@ -82,7 +82,14 @@ git commit -m "Remove profile.txt using git rm"
 - Content of `delete-difference.txt`
 - Repository link
 
----
+---Answer
+<img width="1442" height="862" alt="Screenshot 2026-09-10 135938" src="https://github.com/user-attachments/assets/20e65c39-74f2-45bc-9526-8440e202e2af" />
+<img width="1495" height="897" alt="Screenshot 2026-09-10 140209" src="https://github.com/user-attachments/assets/3b44847c-cc6a-45af-8420-d94a41f38ac2" />
+<img width="1083" height="352" alt="Screenshot 2026-09-10 141304" src="https://github.com/user-attachments/assets/a9cd69e9-91ed-4eb0-8b01-35ce94992808" />
+
+
+
+
 
 ## Assignment 3 – `.gitignore` + `git rm --cached`
 
@@ -136,7 +143,13 @@ git push origin main
 - Content of `why-gitignore.txt`
 - Repository link (make sure `config.env` is **not** visible on GitHub)
 
----
+---answer
+<img width="1442" height="862" alt="Screenshot 2026-09-10 135938" src="https://github.com/user-attachments/assets/b30cc770-13b0-458f-92da-e6070d20ab36" />
+<img width="1362" height="727" alt="image" src="https://github.com/user-attachments/assets/e6ddb503-90c5-413b-8059-fa46f1e18c61" />
+
+
+
+https://github.com/twinklesharmacg-coder/git--reset-command-practice
 
 ## Bonus Assignment (Optional)
 

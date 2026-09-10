@@ -44,7 +44,11 @@ git commit -m "Add profile.txt"
 - Screenshot after using `git restore --staged`
 - Repository link
 
----
+--- Answers
+<img width="1162" height="732" alt="Screenshot 2026-09-10 112939" src="https://github.com/user-attachments/assets/9bd477f7-b703-4ca7-8e02-05a2b823938d" />
+<img width="1425" height="887" alt="Screenshot 2026-09-10 113250" src="https://github.com/user-attachments/assets/42bddff0-3d70-4787-ba55-cf2535f7b3cb" />
+https://github.com/twinklesharmacg-coder/git--reset-command-practice
+
 
 ## Assignment 2 – `rm` vs `git rm`
 

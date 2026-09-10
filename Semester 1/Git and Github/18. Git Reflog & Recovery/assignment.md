@@ -85,7 +85,13 @@ C0 ────── C1 ────── C2 ─── Merge (main)
 All commits preserved!
 ```
 
-***
+***Answer
+<img width="1337" height="815" alt="Screenshot 2026-09-10 213134" src="https://github.com/user-attachments/assets/7d0e394d-d7cb-47c3-80ea-49ab6f862151" />
+![Uploading Screenshot 2026-09-10 213337.png…]()
+![Uploading Screenshot 2026-09-10 214052.png…]()
+
+
+
 
 ## 📋 Part 3: Reflog Exploration 
 

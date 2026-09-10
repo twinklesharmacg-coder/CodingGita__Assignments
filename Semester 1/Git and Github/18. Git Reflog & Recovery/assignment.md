@@ -124,7 +124,9 @@ All commits preserved!
 - **HEAD@{4}**: `git switch -c rework/readme abc1234` - Created branch at C0
 ```
 
-***
+***Answer
+<img width="1266" height="830" alt="Screenshot 2026-09-10 221850" src="https://github.com/user-attachments/assets/1a737805-eaec-4953-9b0a-8084fa7c608b" />
+
 
 ## 📋 Part 4: Challenge - Multiple Recoveries (BONUS ASSIGNMENT)
 
@@ -144,7 +146,11 @@ All commits preserved!
 ✅ Brief write-up: What challenges did you face? How did you solve them?
 ```
 
-***
+***Answer
+<img width="1317" height="847" alt="Screenshot 2026-09-10 223656" src="https://github.com/user-attachments/assets/a6137a4e-5771-4b88-bb86-989a920fb6d1" />
+<img width="1168" height="807" alt="Screenshot 2026-09-10 224443" src="https://github.com/user-attachments/assets/b5ff2315-06d0-4767-abeb-381d67dce6f6" />
+
+
 
 ## 📤 Submission Guidelines
 

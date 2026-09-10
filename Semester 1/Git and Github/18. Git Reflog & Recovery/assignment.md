@@ -39,7 +39,15 @@ C0 (main)    [C1 & C2 lost from log]
 C0 ────── C1 ────── C2 (main)  ← All restored!
 ```
 
-***
+***Answers
+<img width="1286" height="817" alt="Screenshot 2026-09-10 205927" src="https://github.com/user-attachments/assets/96f36049-5b36-4950-8618-72f87a03db9b" />
+<img width="1226" height="777" alt="Screenshot 2026-09-10 210236" src="https://github.com/user-attachments/assets/823c553b-764b-48bc-b559-f66ce872237e" />
+<img width="1315" height="728" alt="Screenshot 2026-09-10 212039" src="https://github.com/user-attachments/assets/a65c7f0c-c623-4bed-9729-0dc7f783853f" />
+
+<img width="1292" height="807" alt="Screenshot 2026-09-10 211310" src="https://github.com/user-attachments/assets/c653dea5-0ce3-4fd7-9e47-81bdead12433" />
+
+
+
 
 ## 📋 Part 2: Reworking Old Commit (5 Points)
 

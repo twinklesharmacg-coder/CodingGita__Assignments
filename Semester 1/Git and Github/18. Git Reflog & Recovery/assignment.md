@@ -87,8 +87,10 @@ All commits preserved!
 
 ***Answer
 <img width="1337" height="815" alt="Screenshot 2026-09-10 213134" src="https://github.com/user-attachments/assets/7d0e394d-d7cb-47c3-80ea-49ab6f862151" />
-![Uploading Screenshot 2026-09-10 213337.png…]()
-![Uploading Screenshot 2026-09-10 214052.png…]()
+<img width="1232" height="737" alt="Screenshot 2026-09-10 213337" src="https://github.com/user-attachments/assets/c3c8d0e2-db3d-4eb1-811e-ad1c925b2c59" />
+<img width="1303" height="842" alt="Screenshot 2026-09-10 214052" src="https://github.com/user-attachments/assets/d2466b87-88e2-4f5b-b4c8-7720af027538" />
+
+
 
 
 

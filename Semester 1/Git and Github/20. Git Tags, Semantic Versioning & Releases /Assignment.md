@@ -23,6 +23,10 @@ Explain the following in your own words:
 4. What is Semantic Versioning? Explain with examples of `v1.0.0`, `v1.1.0`, and `v1.1.1`.
 
 ---Answer
+<img width="928" height="1280" alt="image" src="https://github.com/user-attachments/assets/14fb7520-7021-412d-a4c1-eefd32d8179e" />
+<img width="946" height="1281" alt="image" src="https://github.com/user-attachments/assets/65c722a4-9907-4b28-9cb5-4a0caf5cd710" />
+
+
 
 
 
@@ -44,6 +48,14 @@ Perform the following tasks in your repository and submit screenshots:
    - `v1.1.1`
 4. Push all annotated tags to GitHub.
 5. Create **GitHub Releases** for `v1.0.0` and `v1.1.0`.
+
+Answers
+<img width="1232" height="757" alt="Screenshot 2026-09-11 215243" src="https://github.com/user-attachments/assets/4db62ef2-f69c-4acc-b762-25fbb22fdafd" />
+<img width="1313" height="580" alt="Screenshot 2026-09-11 215426" src="https://github.com/user-attachments/assets/4465d595-80b5-44c4-9e61-4d86e854bcfb" />
+<img width="1390" height="753" alt="Screenshot 2026-09-11 215623" src="https://github.com/user-attachments/assets/c34f4dee-eef8-4a48-bcc3-38f1429cd4d2" />
+<img width="1366" height="773" alt="Screenshot 2026-09-11 215705" src="https://github.com/user-attachments/assets/de8359f7-f674-466c-a676-ee29ad81bce6" />
+
+
 
 ## Question 3:
 

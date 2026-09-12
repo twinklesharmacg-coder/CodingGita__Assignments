@@ -170,7 +170,15 @@ Submit the following:
 4. Link to your GitHub repository
 5. Screenshots of the three GitHub Releases you created
 
----
+---Answers
+<img width="772" height="861" alt="Screenshot 2026-09-12 232855" src="https://github.com/user-attachments/assets/f8a9a4f5-9811-43f0-b347-010782b472d0" />
+<img width="1513" height="880" alt="Screenshot 2026-09-12 233003" src="https://github.com/user-attachments/assets/2efd2d72-4acc-4977-99fe-0133dad4c934" />
+<img width="1198" height="838" alt="Screenshot 2026-09-12 233128" src="https://github.com/user-attachments/assets/f893af08-7137-4215-bcad-460fb3ec832f" />
+<img width="1022" height="710" alt="Screenshot 2026-09-12 233400" src="https://github.com/user-attachments/assets/5ca8fb57-047c-4ff7-996a-691d53dc1b2c" />
+<img width="1282" height="828" alt="Screenshot 2026-09-12 233608" src="https://github.com/user-attachments/assets/bf2b91d3-c7f7-4679-866a-63c916d153cd" />
+https://github.com/twinklesharmacg-coder/GIT-TAG-PRACTICE
+
+
 
 
 **Note:**  

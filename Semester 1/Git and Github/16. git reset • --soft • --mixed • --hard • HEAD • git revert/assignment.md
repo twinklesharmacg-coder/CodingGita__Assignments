@@ -70,7 +70,9 @@ https://github.com/twinklesharmacg-coder/git--reset-command-practice
    - Which one discards the changes completely?
    - When should you avoid `--hard`?
 
-**Submit:**
+**Submit:**answer
+<img width="1280" height="1127" alt="image" src="https://github.com/user-attachments/assets/ce224fb7-3ec9-46e8-96e0-af8efe657ee4" />
+
 - Screenshots of `git status` after each type of reset (`--soft`, `--mixed`, `--hard`)
 - Photos of written answers.
 - Repository link

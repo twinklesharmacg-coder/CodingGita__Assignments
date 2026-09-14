@@ -33,7 +33,14 @@
 - Screenshot of `git log --oneline` after revert
 - Repository link
 
----
+---Answer
+<img width="1265" height="858" alt="Screenshot 2026-09-14 184514" src="https://github.com/user-attachments/assets/834ed423-3dcf-428d-9275-34d392f88ea6" />
+<img width="1490" height="876" alt="Screenshot 2026-09-14 184700" src="https://github.com/user-attachments/assets/b023e5a5-e16d-4ade-a476-bf1642497217" />
+
+Repo link
+https://github.com/twinklesharmacg-coder/git-revert-homework
+
+
 
 ## Assignment 2 – Modify/Delete Conflict during Revert
 
@@ -55,7 +62,13 @@
 - Screenshot after successful `git revert --continue`
 - Repository link
 
----
+---Answers
+<img width="1267" height="818" alt="Screenshot 2026-09-14 185646" src="https://github.com/user-attachments/assets/ffc71e62-142f-402f-913a-d447f722f28c" />
+<img width="1298" height="906" alt="Screenshot 2026-09-14 185733" src="https://github.com/user-attachments/assets/22f9e0cc-c2d8-4f25-91c7-07c5f959e5a1" />
+
+Repo link
+https://github.com/twinklesharmacg-coder/git-revert-homework
+
 
 ## Assignment 3 – Revert Options + Conceptual Questions
 
@@ -85,7 +98,18 @@ Write short and correct answers for the following:
 - Clear photos of the written answers from your notebook
 - Repository link
 
----
+---Answers
+<img width="1130" height="861" alt="Screenshot 2026-09-14 190209" src="https://github.com/user-attachments/assets/6d76e66c-613b-4354-83a8-9abea4d57a24" />
+
+<img width="1313" height="883" alt="Screenshot 2026-09-14 190335" src="https://github.com/user-attachments/assets/82aabb07-f46f-4c10-92a6-84ecf7ebf76e" />
+
+<img width="1381" height="878" alt="Screenshot 2026-09-14 190401" src="https://github.com/user-attachments/assets/d1d2927e-6b1c-4766-a83a-ca7936d2701d" />
+<img width="894" height="1280" alt="image" src="https://github.com/user-attachments/assets/2fbd49c8-664f-42a3-b031-71bbf31f7420" />
+![Uploading image.png…]()
+https://github.com/twinklesharmacg-coder/git-revert-homework
+
+
+
 
 ## Submission Checklist
 

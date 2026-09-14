@@ -103,7 +103,14 @@ git push -u origin main
 4. Answer:
    - Q6: Why is using `-m "message"` helpful? (2 lines)
 
-***
+***Answers
+<img width="770" height="860" alt="Screenshot 2026-09-13 015434" src="https://github.com/user-attachments/assets/52a104ee-e038-4b02-91f6-08e4320c830d" />
+<img width="760" height="806" alt="Screenshot 2026-09-13 015542" src="https://github.com/user-attachments/assets/63c58541-17ae-4c7c-956b-ff014628e546" />
+<img width="755" height="862" alt="Screenshot 2026-09-13 022136" src="https://github.com/user-attachments/assets/60c47e6e-efaf-427d-90ce-91cad2a14048" />
+
+<img width="666" height="597" alt="Screenshot 2026-09-13 022339" src="https://github.com/user-attachments/assets/b9eb03a5-d207-4182-b5a4-1b846218cc74" />
+
+
 
 ## Assignment B —  Theoretical  
 **Title:** “Stash Concepts”
@@ -156,7 +163,16 @@ Answer in 2–4 lines each.
    You must switch to `main` urgently.  
    Write the exact command(s) you will use to stash your work safely (include untracked files and a message).
 
-***
+***Answers
+<img width="876" height="1279" alt="image" src="https://github.com/user-attachments/assets/2e88113b-a301-4f30-9a10-ce31fdfbf09f" />
+<img width="898" height="1278" alt="image" src="https://github.com/user-attachments/assets/fd2b5184-70f9-4e14-a97f-ec75eba89c43" />
+<img width="874" height="1280" alt="image" src="https://github.com/user-attachments/assets/7404f035-6ae6-46c2-8490-800011ccd702" />
+<img width="836" height="1280" alt="image" src="https://github.com/user-attachments/assets/5dbdef11-ebc2-46fc-895e-f952950f7960" />
+
+
+
+
+
 
 ## Assignment C — (Short Practical + Theory)  
 **Title:** “Stash in Action”
@@ -194,7 +210,10 @@ git push -u origin main
 
 3. Answer:
    - Q1: How many stashes? Which one is latest?
+   - Ans
+   - 2 stash and stash@{0} is latest
    - Q2: Which stash has `temp.txt`?
+   - stash@{0} is latest
 
 4. Run:
    ```bash
@@ -206,7 +225,8 @@ git push -u origin main
 5. Answer:
    - Q3: What changed in the stash list after `pop`? (2 lines)
 
-***
+***Answer
+latest stash is restored
 
 ### Part C2 — Theory (10 mins)
 
@@ -256,4 +276,8 @@ Answer in 2–4 lines each in `assignmentC.md`.
 - `-u` (untracked), `-a` (ignored)  
 - `-m "message"` (hygiene)  
 
----
+---Answers
+<img width="1054" height="1280" alt="image" src="https://github.com/user-attachments/assets/54c9c389-cdf3-42b5-8666-6b7c771b9a6d" />
+<img width="896" height="1278" alt="image" src="https://github.com/user-attachments/assets/c826a16e-9436-4a9b-8936-3128ea66f4ad" />
+
+

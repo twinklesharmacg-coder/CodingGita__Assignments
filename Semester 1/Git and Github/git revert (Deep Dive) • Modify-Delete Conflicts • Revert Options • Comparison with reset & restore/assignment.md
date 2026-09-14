@@ -105,7 +105,8 @@ Write short and correct answers for the following:
 
 <img width="1381" height="878" alt="Screenshot 2026-09-14 190401" src="https://github.com/user-attachments/assets/d1d2927e-6b1c-4766-a83a-ca7936d2701d" />
 <img width="894" height="1280" alt="image" src="https://github.com/user-attachments/assets/2fbd49c8-664f-42a3-b031-71bbf31f7420" />
-![Uploading image.png…]()
+<img width="1188" height="1281" alt="image" src="https://github.com/user-attachments/assets/89f4c6dc-b2af-431e-9050-1fee211f5644" />
+
 https://github.com/twinklesharmacg-coder/git-revert-homework
 
 

@@ -61,5 +61,26 @@ Take a word or sentence as input and check whether the character `"a"` occurs in
 | `Python` | `False` |
 | `banana` | `True` |
 
----
+---Ans
+  name=input(Enter the word:)
+      print("a" in word)
 
+# Q11. Email Symbol Check
+
+Take an email address as input and check whether `"@"` is present.
+
+### Test Cases
+
+| Input | Expected Output |
+|---|---|
+| `rahul@gmail.com` | `True` |
+| `student@yahoo.com` | `True` |
+| `rahulgmail.com` | `False` |
+
+Use the string membership operator.
+ANS
+      email=input(Enter your email: )
+           print("@" in email)
+
+
+           

@@ -19,7 +19,11 @@
 
 **Submission:** Screenshot + written answers
 
----
+---Answer
+<img width="352" height="271" alt="Screenshot 2026-09-15 202214" src="https://github.com/user-attachments/assets/18f418fe-9343-43f8-aa9f-e50eff7f4883" />
+<img width="730" height="1280" alt="WhatsApp Image 2026-09-15 at 20 23 05" src="https://github.com/user-attachments/assets/742e077e-8b42-454e-8063-4f685507c1ed" />
+
+
 
 
 
@@ -43,7 +47,13 @@
 
 **Submission:** Written answers
 
----
+---ANSWER
+<img width="596" height="1278" alt="image" src="https://github.com/user-attachments/assets/0ed46950-59c1-4fbc-a6f9-2868411cdadf" />
+<img width="280" height="1279" alt="image" src="https://github.com/user-attachments/assets/4f3d0cbb-a5ec-4295-8ab6-66774a8ae336" />
+<img width="848" height="1280" alt="image" src="https://github.com/user-attachments/assets/0af9439b-7e66-4961-9a7c-b4831ef26451" />
+
+
+
 
 
 
@@ -70,7 +80,11 @@ Fill in the missing stages and the commands used at each step.
 
 **Submission:** Table + Flow + answers
 
----
+---ANSWER
+<img width="872" height="1279" alt="WhatsApp Image 2026-09-15 at 20 36 40" src="https://github.com/user-attachments/assets/d6451c11-6b54-437a-9713-20a1d4ebf7aa" />
+<img width="1280" height="692" alt="WhatsApp Image 2026-09-15 at 20 36 59" src="https://github.com/user-attachments/assets/59c5e117-5ccb-4fd0-bbb4-7c9e785b570e" />
+
+
 
 
 
@@ -101,7 +115,9 @@ Fill in the missing stages and the commands used at each step.
 
 **Submission:** Written answers
 
----
+---Answer
+<img width="1280" height="1068" alt="WhatsApp Image 2026-09-15 at 20 37 43" src="https://github.com/user-attachments/assets/d9619ded-7e9c-47b1-8bfa-d107db06627c" />
+
 
 
 
@@ -120,7 +136,10 @@ Fill in the missing stages and the commands used at each step.
 
 **Submission:** Written answers
 
----
+---Answer
+<img width="1000" height="1279" alt="image" src="https://github.com/user-attachments/assets/25b2011e-afa9-40c0-b3a8-01d61bdfa85d" />
+<img width="798" height="1279" alt="image" src="https://github.com/user-attachments/assets/9c1c3798-c2a1-461f-b60d-e79b1a447a73" />
+
 
 
 

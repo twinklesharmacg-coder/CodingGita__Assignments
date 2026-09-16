@@ -44,4 +44,11 @@ Submit the following:
 
 **Note:** Make sure your repository is public (or accessible to the mentor) so the submission can be verified.
 
----
+---Answers
+<img width="1426" height="866" alt="Screenshot 2026-09-16 202922" src="https://github.com/user-attachments/assets/b05e0487-804d-447a-9f02-eaefb678d4a7" />
+<img width="1428" height="867" alt="Screenshot 2026-09-16 203008" src="https://github.com/user-attachments/assets/ed7301f1-89cf-45c5-a15c-0cf3c3538b5f" />
+<img width="742" height="746" alt="Screenshot 2026-09-16 203101" src="https://github.com/user-attachments/assets/6a6f4b4c-65dc-49e3-90a9-8cc5b4674106" />
+https://github.com/twinklesharmacg-coder/Day5-practice
+
+
+

@@ -258,10 +258,31 @@ print("Month:",month)
 print("Year:",year)
 
 
+
 Q68. String Transformation Challenge
+Take:
+
+Python Programming
+as input.
+
+Use .split() and slicing to display:
+
+First Word: Python
+Second Word: Programming
+First Word Reversed: nohtyP
+Second Word Reversed: gnimmargorP
+
 
 --Answer:
+text=input("Enter your text here:")
+words=text.split()
+word1=words[0]
+word2=words[1]
 
+print("First Word :",word1)
+print("Second word:",word2)
+print ("First Word Reversed: ",word1[::-1])
+print("Second word Reversed: "'word2[::-1])
 
 Q69. Final Challenge — Student Code Formatter
 A student enters:
@@ -291,6 +312,17 @@ Batch: 2026
 Branch: CSE
 Roll: 105
 Code: BTECH/CSE/105
+
+
+--Answer:
+text=input("Enter your id here:")
+texte=text.spilt("-")
+degree=texte[0]
+batch=texte[1]
+branch=texte[2]
+roll=texte[3]
+
+   
 Q70. Final String + Input/Output Challenge
 Take a full name from the user in this format:
 
@@ -323,3 +355,6 @@ Last Name: Sharma
 First Name (Upper Part): RAH
 Last Name (Lower Part): har
 Full Name Reversed: amrahS ramuK luhaR
+
+---Answer:
+

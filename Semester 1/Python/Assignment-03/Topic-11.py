@@ -132,6 +132,23 @@ display:
 @ Present: True
 Username: rahul
 Domain: gmail.com
+
+---Answer:
+
+email = input("Enter the email address: ")
+has_at_symbol = "@" in email
+
+# Display the required output
+print(f"@ Present: {has_at_symbol}")
+
+if has_at_symbol:
+    username, domain = email.split("@", 1)
+    
+    print(f"Username: {username}")
+    print(f"Domain: {domain}")
+else:
+    print("Invalid email format: Missing '@' symbol.")
+
 Q65. Character Analyzer
 Take one character from the user.
 
@@ -152,6 +169,20 @@ Character: B
 Code: 66
 Previous: A
 Next: C
+
+--Answer:
+char=input("enter the character here :")
+print("Character:",char)
+code=ord(char)
+print("Code:",code)
+previous=code-1
+previous_letter=chr(previous)
+print("Previous: ",previous_letter)
+next=code+1
+next_letter=chr(next)
+print("Next:",next_letter)
+
+
 Q66. Product Bill
 Take:
 
@@ -179,6 +210,25 @@ Quantity: 5
 Subtotal: 100.00
 Discount: 10.00
 Final Total: 90.00
+
+---Answer:
+
+product_name=input("Enter your product name:")
+price=input("Enter the price here :")
+quantity=input("Enter the quantity here :")
+discount_percentage=("Enter discount percentage :")
+subtotal=price*quantity
+discount=subtotal*discount_percentage/100
+final_total=subtotal-discount
+
+print("Product:",product_name)
+print("Price:",price)
+print("quantity:",quantity)
+print("Discount:",discount_quantity)
+print("Subtotal:",subtotal)
+print("Final Total :",final_total)
+
+
 Q67. Date Analyzer
 Take a date in this format:
 
@@ -196,18 +246,23 @@ Year: 2026
 Then use string slicing on the original input to extract:
 
 2026
+
+
+--Answer:
+date=input("Enter your date here:").split("-")
+day=date[0]
+month=date[1]
+year=date[2]
+print("Day:",day)
+print("Month:",month)
+print("Year:",year)
+
+
 Q68. String Transformation Challenge
-Take:
 
-Python Programming
-as input.
+--Answer:
 
-Use .split() and slicing to display:
 
-First Word: Python
-Second Word: Programming
-First Word Reversed: nohtyP
-Second Word Reversed: gnimmargorP
 Q69. Final Challenge — Student Code Formatter
 A student enters:
 

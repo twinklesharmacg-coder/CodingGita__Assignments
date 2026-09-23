@@ -29,6 +29,16 @@ f-strings
 
 ---Answers:
 
+name=input("Enter your name:")
+marks1,marks2,marks3=input("Enter your 3 subjects marks:").split()
+
+marks11=int(marks1)
+marks22=int(marks2)
+marks33=int(marks3)
+Total=marks11+marks22+marks33
+average=total/3
+print(f"Name: {name} \n Total: {Total} \n Average:{average}")
+
 
 Q61. Student ID Analyzer
 A student enters:
@@ -55,8 +65,13 @@ Degree: BTECH
 Batch: 24
 Branch: CSE
 Roll Number: 105
-Q62. Username Generator
-Take a three-word full name:
+
+--Answers:
+id=input("Enter your id here:")
+degree,batch,branch,roll_number=id.spilt(-)
+  print("Degree: {degree}  Batch: {batch} Branch: {branch}  Roll number: {roll_number})
+
+Q62.Take a three-word full name:
 
 Rahul Kumar Sharma
 Use .split() and string indexing/slicing to create:
@@ -70,6 +85,19 @@ Slicing
 String concatenation
 Do not use any conditional statement.
 
+---Answers:
+full_name = "Rahul Kumar Sharma"
+words = full_name.split()
+
+
+first_name = words[0]
+last_name = words[2]
+username = first_name.lower() + "." + last_name.lower()
+
+print(username)
+
+# Output: rahul.sharma
+
 Q63. Sentence Information
 Take:
 
@@ -81,6 +109,12 @@ Use .split() and string indexing to display:
 First word: Python
 Last word: powerful
 Also display the number of words.
+
+--Answer:
+text=input("Enter your text here:")
+words=text.split()
+print("First word: " ,words[0])
+print("Last word: " ,words[-1])
 
 Q64. Email Analyzer + Membership
 Take an email address as input.

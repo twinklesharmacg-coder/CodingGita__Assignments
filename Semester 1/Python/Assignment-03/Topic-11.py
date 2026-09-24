@@ -321,6 +321,10 @@ degree=texte[0]
 batch=texte[1]
 branch=texte[2]
 roll=texte[3]
+print("Degree:",degree)
+print("Batch:",batch)
+print("Roll:",branch)
+print(f"Code: {degree}/{branch}/{roll}")
 
    
 Q70. Final String + Input/Output Challenge
@@ -357,4 +361,18 @@ Last Name (Lower Part): har
 Full Name Reversed: amrahS ramuK luhaR
 
 ---Answer:
-
+name=input("Enter your name here:")
+words=name.split()
+first_name=name[0]
+Last_name=name[-1]
+first_name_part=first_name[0:3]
+first_name_upper_part=first_name_part.upper()
+last_name_part=last_name[1:4]
+last_name_lower_part=last_name_part.lower()
+full_name_reversed=name[::-1]
+print("Original:",name)
+print("First Name:",first_name)
+print("Last Name:",last_name)
+print("First name (upper part):",first_name_upper_part)
+print("Last name (lower part):",last_name_lower_part)
+print("Full name Reversed:",full_name_reversed)

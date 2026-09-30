@@ -28,7 +28,19 @@ using these ranges:
 `65 → D`  
 `40 → F`
 
----
+---Answer:
+marks=int(input("Enter your marks here:"))
+if marks>=90:
+    print("A")
+elif marks>=80 and marks<=89:
+    print("B")
+elif marks>=70 and marks<=79:
+    print("C")
+elif marks>=60 and marks<=69:
+    print("D")
+else:
+    print("F")
+
 
 ## Q20. Temperature Category
 
@@ -57,7 +69,16 @@ Rules:
 `25 → Warm`  
 `12 → Cold`
 
----
+---Answer:
+temp=input("Take tempurature in celsius:")
+if temp>40:
+    print("Very Hot")
+elif 30<=temp<=40:
+    print("Hot")
+elif 29<=temp<=20:
+    print("Warm")
+else:
+    print("Cold")
 
 ## Q21. Traffic Signal
 
@@ -77,7 +98,18 @@ Print the appropriate instruction:
 `green → Go`  
 `blue → Invalid Signal`
 
----
+---Answer:
+
+color=("Enter the traffic color:")
+if color=="red":
+    print("Stop")
+elif color=="yellow":
+    print("Wait")
+elif color=="green":
+    print("Go")
+elif color=="blue":
+    print("Invalid Signal")
+
 
 ## Q22. Electricity Usage Category
 
@@ -97,7 +129,17 @@ Print:
 `450 → High Usage`  
 `650 → Very High Usage`
 
----
+---Answer:
+units=input("Enter the electricity units here:")
+if 0<=units<=100:
+    print("Low usage")
+elif 101<=units<=300:
+    print("Medium usage")
+elif 301<=units<=500:
+    print("High usage")
+else:
+    print("Very high usage")
+
 
 ## Q23. Movie Ticket Category
 
@@ -117,7 +159,16 @@ Print:
 `25 → Regular Ticket`  
 `65 → Senior Ticket`
 
----
+---Answer:
+age=int(input("Enter your age here:"))
+if age<5:
+    print("Free ticket")
+elif 5<=age<=12:
+    print("Child ticket")
+elif 13<=age<=59:
+    print("Regular Ticket")
+else:
+    print("Senior Ticket")
 
 ## Q24. BMI Category
 
@@ -137,7 +188,16 @@ Print:
 `27.2 → Overweight`  
 `31.4 → Obese`
 
----
+---Answer:
+bmi=input("Enter your bmi here:")
+if bmi<18.5:
+    print("Underweight")
+elif 18.5<=bmi<=24.9:
+    print("Normal")
+elif 25<=bmi<=29.9:
+    print("Overweight")
+else:
+    print("Obese")
 
 ## Q25. Month Days
 
@@ -157,7 +217,8 @@ Print the number of days for:
 `2 → 28 or 29 Days`  
 `13 → Invalid Month`
 
----
+---Answer:
+
 
 ## Q26. Simple Calculator
 

@@ -254,6 +254,7 @@ Create variables for the following and print each value along with its type:
 - Not-a-Number (`NaN`)  
 - A large number written with scientific notation (e.g., `2.5e3`)  
 - A number written with underscores for readability (e.g., `1_000_000`)
+- 
  --Answer:
 let posInfinity = Infinity;
 let negInfinity = -Infinity;
@@ -284,3 +285,153 @@ let templateLiteralStr = `Hello ${name}, this is a template literal!`;
 console.log(singleQuoteStr);
 console.log(doubleQuoteStr);
 console.log(templateLiteralStr);
+
+### Part f — Advanced Primitive Types (3 Questions)
+
+**5. Symbol Uniqueness**  
+Create two Symbols with the same description (`'id'`).  
+Compare them using `===` and print the result.  
+Then use both Symbols as keys in an object and retrieve the values.  
+Explain why the comparison returns `false`.
+
+---Answer:
+let sym1 = Symbol('id');
+let sym2 = Symbol('id');
+
+console.log(sym1 === sym2); // Output: false
+
+let obj = {
+    [sym1]: "Value for sym1",
+    [sym2]: "Value for sym2"
+};
+
+console.log(obj[sym1]); // Output: Value for sym1
+console.log(obj[sym2]);// Output: Value for sym2
+
+**6. BigInt Precision**  
+Create a regular `number` with the value `9007199254740991` (Number.MAX_SAFE_INTEGER).  
+Add `1`, `2`, and `3` to it and print the results.  
+Now create the same value as a `BigInt` and perform the same additions.  
+Print the results and explain the difference.
+
+---Answer:
+let maxSafe = Number.MAX_SAFE_INTEGER; // 9007199254740991
+console.log(maxSafe + 1); // 9007199254740992
+console.log(maxSafe + 2); // 9007199254740993 
+console.log(maxSafe + 3); // 9007199254740994 
+
+// BigInt Precision Preservation
+let bigMaxSafe = 9007199254740991n;
+console.log(bigMaxSafe + 1n); // 9007199254740992n
+console.log(bigMaxSafe + 2n); // 9007199254740993n
+console.log(bigMaxSafe + 3n); // 9007199254740994n
+
+
+**7. Choose the Correct Type**  
+For each description below, write the most appropriate primitive data type and give an example declaration:
+- A unique identifier that is never equal to another value with the same description  
+- A very large integer that must keep exact precision  
+- A variable that has been declared but not yet given a value  
+- An intentional empty value
+
+- --Answers:
+- 
+A unique identifier that is never equal to another value with the same description: Symbol
+
+Example: const id = Symbol('userId');
+
+A very large integer that must keep exact precision: BigInt
+
+Example: const hugeNum = 9007199254740993245n;
+
+A variable that has been declared but not yet given a value: undefined
+
+Example: let status;
+
+An intentional empty value: null
+
+Example: let selectedUser = null;
+
+
+
+### Part g — Prediction & Fixing (3 Questions)
+
+**8. Predict the Output**  
+Without running the code, predict what each `console.log` will print (value + type). Explain your reasoning.
+
+```javascript
+let a;
+let b = null;
+let c = 42;
+let d = "Hello";
+let e = true;
+let f = Symbol("key");
+let g = 123n;
+
+console.log(typeof a, a);
+console.log(typeof b, b);
+console.log(typeof c, c);
+console.log(typeof d, d);
+console.log(typeof e, e);
+console.log(typeof f, f);
+console.log(typeof g, g);
+
+
+```
+---Answers:
+  // console.log outputs:
+undefined undefined
+object null
+number 42
+string Hello
+boolean true
+symbol Symbol(key)
+bigint 123n
+
+**9. Fix the Code**  
+The following program has mistakes related to primitive types. Fix it so that it runs correctly and prints meaningful values.
+
+```javascript
+let num = 10;
+let text = Hello;
+let flag = True;
+let empty;
+let nothing = Null;
+let unique = symbol("id");
+let big = 9007199254740991;
+
+console.log(num, text, flag, empty, nothing, unique, big);
+```
+--Answer:
+let num = 10;
+let text = "Hello";        // Added quotes
+let flag = true;           // Lowercase 'true'
+let empty;                 // Undefined variable declaration
+let nothing = null;        // Lowercase 'null'
+let unique = Symbol("id"); // Capital 'S' for Symbol constructor
+let big = 9007199254740991n; // Added 'n' for BigInt or use BigInt()
+
+console.log(num, text, flag, empty, nothing, unique, big);
+
+**10. Primitive vs Non-Primitive**  
+Answer the following questions in your own words and give one example for each:
+
+a) What is the main difference between Primitive and Non-Primitive data types?  
+b) Why are Numbers, Strings, Booleans, Undefined, Null, Symbol, and BigInt called Primitive?  
+c) Give one example of a Non-Primitive data type and explain why it is considered Non-Primitive.
+
+
+---Answer:
+a) 
+
+Primitives hold a single, immutable value directly in memory (and are compared by value). Non-Primitives (like Objects and Arrays) can hold collections of values or complex entities, are mutable, and are stored and compared by reference in memory.
+
+Example: let str = "hello"; (Primitive) vs let obj = {name: "Alex"}; (Non-Primitive).
+
+b)
+
+They are considered the building blocks of data in JavaScript because they contain no properties, methods, or sub-values—they represent single, unchangeable atomic values.
+
+c)
+
+Array (or Object). It is considered non-primitive because it can store multiple values (of any data type) simultaneously, has built-in methods (like .push() or .map()), and is mutable (its contents can be changed without reassigning the variable reference).

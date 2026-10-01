@@ -25,7 +25,14 @@ Not Eligible
 `70 70 → Not Eligible`  
 `55 90 → Not Eligible`
 
----
+---Answer:
+marks = int(input("Enter marks: "))
+attendance = int(input("Enter attendance: "))
+
+if marks >= 60 and attendance >= 75:
+    print("Eligible")
+else:
+    print("Not Eligible")
 
 ## Q30. Scholarship Eligibility
 
@@ -39,7 +46,14 @@ Take marks and income.
 `70 250000 → Scholarship Available`  
 `70 500000 → No Scholarship`
 
----
+---Answer:
+marks = int(input("Enter marks: "))
+income = int(input("Enter income: "))
+
+if marks >= 85 or income < 300000:
+    print("Scholarship Available")
+else:
+    print("No Scholarship")
 
 ## Q31. Weekend Check
 
@@ -63,7 +77,13 @@ Weekday
 `Sunday → Weekend`  
 `Monday → Weekday`
 
----
+---Answer:
+day = input("Enter day: ")
+
+if day == "Saturday" or day == "Sunday":
+    print("Weekend")
+else:
+    print("Weekday")  
 
 ## Q32. Online Exam Access
 
@@ -90,7 +110,14 @@ Access Denied
 `student wrong123 → Access Denied`  
 `admin python123 → Access Denied`
 
----
+---Answer:
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "student" and password == "python123":
+    print("Access Granted")
+else:
+    print("Access Denied")
 
 ## Q33. Delivery Availability
 
@@ -102,7 +129,13 @@ A delivery is available if the city is `"Ahmedabad"` or `"Gandhinagar"`.
 `Gandhinagar → Delivery Available`  
 `Surat → Delivery Unavailable`
 
----
+---Answer:
+city = input("Enter city: ")
+
+if city == "Ahmedabad" or city == "Gandhinagar":
+    print("Delivery Available")
+else:
+    print("Delivery Unavailable")
 
 ## Q34. Number Range Check
 
@@ -117,7 +150,13 @@ Print `Inside Range` if the number is between `10` and `50`, inclusive. Otherwis
 `50 → Inside Range`  
 `55 → Outside Range`
 
----
+---anaswer:
+num = int(input("Enter number: "))
+
+if num >= 10 and num <= 50:
+    print("Inside Range")
+else:
+    print("Outside Range")
 
 ## Q35. Secure Transaction
 
@@ -132,4 +171,11 @@ A transaction is allowed only when:
 `60000 1234 → Transaction Declined`  
 `25000 9999 → Transaction Declined`
 
----
+---Answer:
+amount = int(input("Enter amount: "))
+otp = input("Enter OTP: ")
+
+if amount <= 50000 and otp == "1234":
+    print("Transaction Approved")
+else:
+    print("Transaction Declined")

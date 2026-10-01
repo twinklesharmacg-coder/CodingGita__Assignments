@@ -15,6 +15,7 @@ Create a constant variable `PI` with the value `3.14`. Print its value. Do not t
 Declare one variable having name `num1` using `var` and one having name `num2` using `let` without assigning values. Print both variables. Then assign values to them and print the values again.
 
 ---Answer:
+
 1.const name = "Alex";
 let age = 25;
 const city = "New York";
@@ -181,6 +182,7 @@ let b = 20;
 const c = 30;
 ```
 --Answer:
+
 undefined
 ReferenceError: Cannot access 'b' before initialization
 **12. Fix the Hoisting Errors**  
@@ -198,6 +200,7 @@ const z = "!";
 console.log(x + " " + y + z);
 ```
 --Answer:
+
 var x = "Hello";
 let y = "World";
 const z = "!";
@@ -224,6 +227,7 @@ Declare one variable of each of the following types and print both the value and
 - A true/false value
 - 
 ---Answer:
+  
   let wholeNumber = 42;
 let decimalNumber = 3.14;
 let text = "Hello, JavaScript!";
@@ -241,6 +245,7 @@ Declare two variables:
 
 Print both variables and their `typeof` results. Explain the difference between `undefined` and `null`.
 --Answer:
+
 let a;
 let b = null;
 
@@ -256,6 +261,7 @@ Create variables for the following and print each value along with its type:
 - A number written with underscores for readability (e.g., `1_000_000`)
 - 
  --Answer:
+  
 let posInfinity = Infinity;
 let negInfinity = -Infinity;
 let notANumber = NaN;
@@ -277,6 +283,7 @@ Create three string variables using:
 Print all three strings.
 
 ---Answers:
+
 let singleQuoteStr = 'Hello using single quotes';
 let doubleQuoteStr = "Hello using double quotes";
 
@@ -295,6 +302,7 @@ Then use both Symbols as keys in an object and retrieve the values.
 Explain why the comparison returns `false`.
 
 ---Answer:
+
 let sym1 = Symbol('id');
 let sym2 = Symbol('id');
 
@@ -315,6 +323,7 @@ Now create the same value as a `BigInt` and perform the same additions.
 Print the results and explain the difference.
 
 ---Answer:
+
 let maxSafe = Number.MAX_SAFE_INTEGER; // 9007199254740991
 console.log(maxSafe + 1); // 9007199254740992
 console.log(maxSafe + 2); // 9007199254740993 
@@ -334,8 +343,8 @@ For each description below, write the most appropriate primitive data type and g
 - A variable that has been declared but not yet given a value  
 - An intentional empty value
 
-- --Answers:
-- 
+  --Answers:
+  
 A unique identifier that is never equal to another value with the same description: Symbol
 
 Example: const id = Symbol('userId');

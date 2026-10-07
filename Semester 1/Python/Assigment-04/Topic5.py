@@ -1,4 +1,4 @@
-[11:32, 30/09/2026] Preya Cg: # Q36
+# Q36
 username = input("Enter username: ")
 password = input("Enter password: ")
 

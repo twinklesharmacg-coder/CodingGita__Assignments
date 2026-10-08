@@ -249,7 +249,7 @@ Print both variables and their `typeof` results. Explain the difference between 
 let a;
 let b = null;
 
-console.log(a, typeof a); // undefined 'undefined'
+console.log(a, typeof a);  // undefined 'undefined'
 console.log(b, typeof b); // null 'object'
 
 **3. Number Special Values**  
@@ -325,14 +325,20 @@ Print the results and explain the difference.
 ---Answer:
 
 let maxSafe = Number.MAX_SAFE_INTEGER; // 9007199254740991
+
 console.log(maxSafe + 1); // 9007199254740992
+
 console.log(maxSafe + 2); // 9007199254740993 
 console.log(maxSafe + 3); // 9007199254740994 
 
 // BigInt Precision Preservation
 let bigMaxSafe = 9007199254740991n;
 console.log(bigMaxSafe + 1n); // 9007199254740992n
+
+
 console.log(bigMaxSafe + 2n); // 9007199254740993n
+
+
 console.log(bigMaxSafe + 3n); // 9007199254740994n
 
 
@@ -402,23 +408,36 @@ The following program has mistakes related to primitive types. Fix it so that it
 
 ```javascript
 let num = 10;
+
 let text = Hello;
+
 let flag = True;
+
 let empty;
+
 let nothing = Null;
+
 let unique = symbol("id");
+
 let big = 9007199254740991;
 
 console.log(num, text, flag, empty, nothing, unique, big);
 ```
 --Answer:
+
 let num = 10;
-let text = "Hello";        // Added quotes
-let flag = true;           // Lowercase 'true'
-let empty;                 // Undefined variable declaration
-let nothing = null;        // Lowercase 'null'
-let unique = Symbol("id"); // Capital 'S' for Symbol constructor
-let big = 9007199254740991n; // Added 'n' for BigInt or use BigInt()
+
+let text = "Hello";   
+
+let flag = true;  
+
+let empty;      
+
+let nothing = null;  
+
+let unique = Symbol("id"); 
+
+let big = 9007199254740991n; 
 
 console.log(num, text, flag, empty, nothing, unique, big);
 
@@ -480,7 +499,11 @@ Create variables of the following types and print both the value and its type us
 
 Observe and note any surprising results (especially with `null` and arrays).
 
----
+---Answer:
+<img width="822" height="1281" alt="image" src="https://github.com/user-attachments/assets/0e688998-9bad-491f-af1d-4552ecaf4c82" />
+<img width="850" height="1281" alt="image" src="https://github.com/user-attachments/assets/1bcfefbd-3d5b-4fa5-a064-b0fa9c1d0a92" />
+
+
 
 ### Part I] - Naming Rules & Best Practices (3 Questions)
 
@@ -516,7 +539,10 @@ Write code that demonstrates:
 
 Print all variables.
 
----
+---Answer:
+<img width="896" height="1278" alt="image" src="https://github.com/user-attachments/assets/59e8a832-747c-4df2-902d-746479d66468" />
+
+
 
 ### Part J] - Prediction & Fixing (3 Questions)
 
@@ -563,3 +589,10 @@ a) What is the main difference between an **Object** and an **Array**?
 b) Why does `typeof null` return `"object"`? Is `null` really an object?  
 c) Why is it recommended to keep arrays with a single data type?  
 d) When should you use `const` and when should you use `let`?
+
+--Answer:
+<img width="914" height="1279" alt="image" src="https://github.com/user-attachments/assets/43b8e9b7-195a-469b-af93-047ba22f083d" />
+<img width="1178" height="1600" alt="image" src="https://github.com/user-attachments/assets/ecbbd5c7-4af4-4c32-82a7-f2652f3ace45" />
+
+
+

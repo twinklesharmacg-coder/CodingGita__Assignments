@@ -88,6 +88,7 @@ Even Index Characters: 6
 ```
 
 ---Answer:
+
 total_chars = len(string)
 count_vowels = count_consonants = count_upper = count_lower = count_even = 0
 for i in range(total_chars):
@@ -109,3 +110,4 @@ print("Consonants:", count_consonants)
 print("Uppercase:", count_upper)
 print("Lowercase:", count_lower)
 print("Even Index Characters:", count_even)
+

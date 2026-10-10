@@ -173,3 +173,38 @@ for i in range(number_of_products):
         number_of_expensive_products+=1
 print("Total Bill:", total_bill)
 print("Products Above 1000:", number_of_expensive_products)
+
+
+        
+## Q67. Login Attempt Analyzer
+
+Take `N` login attempts. For each attempt, input `success` or `failed`. Count successful and failed attempts and calculate the success percentage.
+
+### Test Case
+
+```text
+Input: 5
+Attempts: success failed success failed success
+```
+
+### Expected Output
+
+```text
+Successful: 3
+Failed: 2
+Success Rate: 60.0%
+```
+
+---Answer:
+N = int(input("Enter the N here:"))
+attempt = input("Enter here:")
+count_success = count_failed = 0
+for i in range(N):
+    if attempt == "success":
+        count_success+=1
+    elif attempt == "failed":
+        count_failed+=1
+success_percentage = (count_success / N) * 100
+print(f"Successful: {count_success}")
+print(f"Failed: {count_failed}")
+print(f"Success Rate: {success_percentage:.1f}%")

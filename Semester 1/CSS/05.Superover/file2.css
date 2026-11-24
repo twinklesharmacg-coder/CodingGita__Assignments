@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+
+
+.container{
+    width: 900px;
+    height: 520px;
+    border: 5px white solid;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmj6zDzsmoRqyfcB7zy5TALvaHh4MSNKzoknfLZysmiQ&s=10");
+    background-size: cover;
+   margin-left: 100px;
+   margin-top: 50px;
+}
+.div1{
+    height:150px;
+    z-index: 5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+       font-family: 'Times New Roman', Times, serif; 
+    }
+   
+}
+.div2{
+    height:280px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+}
+.div3{
+    height: 100px;
+   z-index: 5;
+   display: flex;
+   gap: 40px;
+   align-items: center;
+   justify-content: center;
+}  
+.blue{
+    background-color: rgb(5, 22, 153);
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}   
+ .green{
+  background-color: rgb(8, 186, 76);
+    height: 200px;
+    width: 300px;  
+    border-radius: 20px;
+ } 
+ .num{
+    height:35px;
+    width:35px;
+    border-radius: 50%;
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .v{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+   
+    height: 90px;
+ }
+ .i{
+    height:50px;
+    /* border:2px solid; */
+    color:white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ .q{
+    height:50px;
+   
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }  
+ img{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    border: 5px orange solid;
+ }
+ 

@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box; 
+} 
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid;
+    display: flex;
+   flex-direction: column;
+
+}
+
+
+.one{
+    border: 50px solid red;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.two{
+    height: 400px;
+    width: 200px;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.three{
+    height: 400px;
+    width: 400px;
+    border: 50px solid green ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.four{
+    height: 200px;
+    width:400px;
+    border: 1px  solid;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.five{
+    height: 200px;
+    width:200px ;
+    border:1px solid ;
+}
+.six{
+    height: 200px;
+    width:400px ;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.seven{
+    height:400px;
+    width:400px;
+    border:50px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.eight{
+    height: 400px;
+    width: 200px;
+    border:1px solid ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nine{
+    height: 400px;
+    width: 400px;
+    border: 50px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.q{
+   display: flex; 
+}
+.grid{
+    border: 2px solid; 
+  width: 33.333%;  
+}
+.grid1{
+    border: 2px solid;
+    height: 33.333%;
+    width:16.666%;
+}
+.division{
+ /* border: 1px solid; */
+ height: auto;
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 2px solid;
+}
+.mini{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 7px solid red;
+}
+.min{
+     height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 7px solid green;  
+}
+.minu{
+     height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 7px solid blue;    
+}
+.mi{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 7px solid yellow;    
+}
+.i{
+    background-color: green;
+}
+
+
+.r{
+    background-color: red;
+}
+.y{
+    background-color: yellow;
+}
+.b{
+    background-color: blue;
+}
+.triangle-square {
+
+  width: 0;
+  height: 0;
+  
+
+  border-top: 100px solid green;    
+  border-right: 100px solid yellow; 
+  border-bottom: 100px solid blue;   
+  border-left: 100px solid red; 
+ }
+ 

@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    
+}
+p{
+    font-size: 30px;
+    
+}
+
+.white{
+    margin-left: 150px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+
+    
+}
+.sudoku{
+    /* border:2px solid red; */
+    background-color: white;
+    width: 33vw;
+    height: 75vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.box-parent{
+    border: 3px solid black;
+    width:400px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.boxes{
+    border:1px solid black;
+    height: 33.333%;
+    width: 33.333%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.small{
+    border:2px solid black;
+    height: 33.333%;
+    width: 33.333%;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: #ABD8B8;
+}
+
+
+
